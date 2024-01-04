@@ -1,0 +1,102 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #252525;
+}
+
+img {
+    background-image: url('logo.png');
+    width: 223px;
+    height: auto;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #2a7ae4;
+}
+
+.lanches, .promocoes {
+    list-style: none;
+    padding: 0;
+}
+.promocao {
+    margin-bottom: 23px;
+    margin-right: 60%;
+    background-color:#AF6614;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.preco {
+    margin-bottom: 23px;
+    margin-right: 83%;
+    background-color:#AF6614;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: red;
+}
+
+.body {
+    margin-left: 25%;
+}
+
+button {
+    background-color: #AF6614;
+    border: none;
+    color: white;
+    padding: 3px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+  }
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: green;
+}
+
+ a:hover {
+    color: #AF6614;
+    text-decoration: none;
+  }
+
+.vermei {
+    color: red;
+}
+
+  

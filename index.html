@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanches Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <header>
+            <img src="logo.png" >
+            <nav>
+                <ul>
+                    <li><a href="#principal"><button>principal</button></a></li>
+                    <li><a href="#promocoes"><button>promoções</button></a></li>
+                    <li><a href="#localizacao"><button>Localização</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="principal">
+                <h2>Cardápio</h2>
+                <ul class="lanches">
+                    <li class="lanche">
+                        <h3>xis</h3>
+                        <p>Pão, carne de hambúrguer, queijo, tomate, alface e picles</p>
+                        <h3 class="preco">um milhão de reais</h3>
+                    </li>
+                    <!-- ...outros lanches -->
+                </ul>
+            </section>
+            <section id="promocoes">
+                <h2>Promoções</h2>
+                <ul class="promocoes">
+                    <li class="promocao">
+                        <h3>Combo Família</h3>
+                        <p>dois xis (da sua preferencia) um guarana 2 litros e duas porções de batata frita <h3 class="vermei"><b>por somente 64 reais</b></h3></p>
+                    </li>
+                    <!-- ...outras promoções -->
+                </ul>
+            </section>
+            <section id="localizacao">
+                <h2>Localização</h2>
+                <p>Endereço do restaurante</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d224.17925189601308!2d-56.557023507186315!3d-29.14235830821723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1704404261312!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Tô Com Fome. Todos os direitos reservados.</p>
+        </footer>
+    </div>    
+</body>
+</html>
+
+<script>
+        document.getElementById("myLink").onclick = function() {
+            this.classList.add("clicked");
+        };
+    </script>
