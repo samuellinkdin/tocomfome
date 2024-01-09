@@ -22,7 +22,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-flex;
     margin-right: 10px;
 }
 
@@ -41,7 +41,7 @@ nav ul li a:hover {
 }
 .promocao {
     margin-bottom: 23px;
-    margin-right: 60%;
+    margin-right: 59%;
     background-color:#AF6614;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -64,7 +64,6 @@ nav ul li a:hover {
 .em_espera {
     color: red;
     text-align: center;
-    
 }
 
 .rs {
