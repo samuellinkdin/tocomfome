@@ -51,13 +51,31 @@ nav ul li a:hover {
 
 .preco {
     margin-bottom: 23px;
-    margin-right: 83%;
+    margin-right: 92%;
     background-color:#AF6614;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     color: red;
+    margin-left: 5px;
+}
+
+.em_espera {
+    color: red;
+    text-align: center;
+    
+}
+
+.rs {
+    color: red;
+    margin-bottom: 23px;
+}
+
+.tabela_preco {
+    display: flex;
+    flex-direction: initial;
+    align-items: center; 
 }
 
 .body {
@@ -86,12 +104,12 @@ a {
     text-decoration: none;
   }
 
-  a:visited {
+a:visited {
     color: green;
 }
 
- a:hover {
-    color: #AF6614;
+button:hover {
+    color: #ff0000;
     text-decoration: none;
   }
 
